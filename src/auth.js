@@ -1,3 +1,8 @@
 function login(username, password) {
-	return true;
+	if(username == "admin"){
+		console.log("LOGIN")
+		return true
+	}
+
+	return false
 }
